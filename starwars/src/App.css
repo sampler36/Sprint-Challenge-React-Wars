@@ -1,27 +1,26 @@
-
-
 .App {
   text-align: center;
   font-size: 20px;
+  background-image: url('./sw-bg.jpg');
+  background-repeat: unset;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
-div{  
-  color: #423e44;
-  text-shadow: 1px 1px 5px #fff;
-  display: -ms-grid;
-  flex-flow: row wrap;
-  max-width: 80%;
-  margin: 0 auto;
-}
 
-.card{
-    background-color: #bcbcd05b;
-    border-radius: 14px  14px;
-    width: 700px;
-    border: 1px solid #2120201d;
-
+.main{
+ 
+  display:flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  max-width: 100%; 
+  padding: 12px;
+  margin: 12px;
+  padding-bottom: 20px;
+  background-color: #bcbcd05b;
+  border-radius: 14px  14px;
+  border: 1px solid #5e5d5d1d;
+  
 }
