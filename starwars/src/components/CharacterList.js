@@ -22,3 +22,4 @@ export function CharacterList({ starwarsChars }) {
     }
 
       export default CharacterList;
+// created another component
